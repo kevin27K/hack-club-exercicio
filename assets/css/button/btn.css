@@ -1,0 +1,18 @@
+@import url(./btn-red.css);
+@import url(./btn-white.css);
+@import url(./btn-search.css);
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	width: 11.5rem;
+	height: 64px;
+	border-radius: 128px;
+	box-sizing: content-box;
+
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.25rem;
+}

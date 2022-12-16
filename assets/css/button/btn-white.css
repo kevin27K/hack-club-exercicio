@@ -1,0 +1,5 @@
+.btn-white {
+	color: var(--hacker-red);
+	background: var(--hacker-white);
+	border: 2px solid var(--hacker-red);
+}

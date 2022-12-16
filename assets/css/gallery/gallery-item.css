@@ -1,0 +1,11 @@
+.gallery__item {
+	scroll-snap-align: start;
+}
+
+.gallery__item img {
+	object-fit: cover;
+}
+
+.gallery__img {
+	width: 100vw;
+}

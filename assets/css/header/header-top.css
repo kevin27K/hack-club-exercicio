@@ -1,0 +1,31 @@
+.header__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	z-index: 100;
+}
+
+#menu {
+	display: none;
+}
+
+.menu {}
+
+.menu-hamburguer {
+	width: 1.5rem;
+	height: 1.5rem;
+	background-image: url(../../img/icon-menu.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	display: inline-block;
+}
+
+.menu-nav {
+
+}
+
+#menu:checked~.menu>.menu-hamburguer {
+	background-image: url(../../img/menu-aberto.png);
+}

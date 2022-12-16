@@ -1,0 +1,10 @@
+@import url(./gallery-item.css);
+@import url(./gallery-control.css);
+@import url(./gallery-slide.css);
+
+.gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100vw;
+}

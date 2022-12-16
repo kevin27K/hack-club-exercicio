@@ -1,0 +1,6 @@
+.gallery__slide {
+	display: flex;
+	overflow-y: auto;
+	scroll-snap-type: x mandatory;
+	overscroll-behavior-x: contain;
+}

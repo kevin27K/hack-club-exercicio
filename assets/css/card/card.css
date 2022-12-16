@@ -1,0 +1,46 @@
+@import url(./card-img.css);
+@import url(./card-icon.css);
+@import url(./card-title.css);
+@import url(./card-description.css);
+@import url(./card-link.css);
+
+.card {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 1.5rem;
+	align-items: center;
+
+	margin: .875rem 0;
+}
+
+.card__element--align-left {
+	align-self: flex-start;
+}
+
+.card__element--align-right {
+	align-self: flex-end;
+}
+
+.card__element--align-center {
+	align-self: center;
+}
+
+.card__text--align-left {
+	text-align: left;
+}
+
+.card__text--align-right {
+	text-align: right;
+}
+
+.card__text--align-center {
+	text-align: center;
+}
+
+.card__list-dot {
+	list-style: disc;
+	margin: 0 1.5rem;
+	color: var(--hacker-blue);
+}
